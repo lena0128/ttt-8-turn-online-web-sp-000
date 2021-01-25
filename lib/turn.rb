@@ -37,6 +37,6 @@ input_to_index(user_input)
 if valid_move?(board, index)
   move(board, index, token = "X")
 else
-  puts "Please enter a move"
+  puts "Please enter 1-9:"
 end
 end
