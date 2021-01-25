@@ -20,4 +20,8 @@ def position_taken?(board, index)
   else
     false
   end
-end    
+end
+
+def move(board, input, token = "X")
+  board[input.to_i - 1] = "X"
+end  
