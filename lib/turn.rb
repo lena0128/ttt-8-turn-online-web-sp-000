@@ -38,6 +38,7 @@ if valid_move?(board, index) == true
   move(board, index, token = "X")
 else
   puts "Please enter 1-9:"
+  user_input = gets.strip
 end
 display_board(board)
 end
