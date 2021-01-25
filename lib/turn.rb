@@ -39,4 +39,5 @@ if valid_move?(board, index) == true
 else
   puts "Please enter 1-9:"
 end
+display_board(board)
 end
